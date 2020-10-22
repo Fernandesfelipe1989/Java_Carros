@@ -1,11 +1,11 @@
-package ExFuncionarios;
+package Exfuncionarios;
 
-public class Funcionarios {
+public abstract class Funcionarios {
     private Double salario;
 
-    // public Funcionarios(Double sal){
-    //     this.salario = sal;
-    // }
+    public Funcionarios(Double sal){
+        this.salario = sal;
+    }
 
     public Double impostoSalario(){
         return this.salario*0.01;

@@ -1,8 +1,8 @@
-package ExFuncionarios;
+package Exfuncionarios;
 
 public class Atendente extends Funcionarios{
     public Atendente( Double sal){
-        alteraSalario(sal);
+        super(sal);
     }
     public Double impostoSalario(){
         return getSalario()*0.01;
