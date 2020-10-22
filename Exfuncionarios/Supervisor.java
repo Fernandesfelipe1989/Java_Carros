@@ -2,7 +2,7 @@ package ExFuncionarios;
 
 public class Supervisor extends Funcionarios{
     public Supervisor(Double sal){
-        alteraSalario(sal);
+        super(sal);
     }
     public Double impostoSalario(){
         return getSalario()*0.05;
