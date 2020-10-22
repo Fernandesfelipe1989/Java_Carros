@@ -1,3 +1,5 @@
+package ExCarro;
+
 public class Carro {
     String marca;
     String modelo;
@@ -38,7 +40,15 @@ public class Carro {
 
     }
 
+    public static void main(String[] args){
+        Carro gol = new Carro("gol", 4, 5, "Volkswagen", 2020, "");
+        gol.inPassager(1);
+        gol.outPassager(3);
+        gol.info();
 
+
+        
+    }
     
 }
 
